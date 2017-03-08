@@ -16,7 +16,7 @@ proxy = [
 # 随机切换用户代理池
 def ua(proxy):
     thisua = random.choice(proxy)
-    print(thisua)
+    print("当前使用的用户代理: " + thisua)
     headers = ("User-Agen", thisua)
     opener = urllib.request.build_opener()
     opener.addheaders = [headers]
