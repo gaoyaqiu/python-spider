@@ -27,7 +27,8 @@ import urllib.request
 import urllib.error
 
 try:
-    # 当请求csdn的博客网站时,出现异常
+    # 当直接请求csdn的博客网站时,会出现403异常,
+    # 因为csdn会对爬虫访问进行屏蔽,那么就需要伪装成浏览器才能爬取(后面会补充)
     urllib.request.urlopen("http://blog.csdn.net")
 except urllib.error.URLError as e:
     # 捕捉异常,并获取异常code及异常信息
