@@ -35,6 +35,8 @@
 
 ### dangdang 
     scrapy实现当当网商品爬虫实战
+### baidunews     
+     scrapy百度新闻爬虫实战
     
 ### 未完待续!
     
