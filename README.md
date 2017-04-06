@@ -32,6 +32,7 @@
    21. [example-21.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-21.py) IP代理池构建实战
    22. [example-22.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-22.py) 淘宝商品图片爬虫实战
    23. [example-23.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-23.py) 如何同时使用用户代理池和IP代理池
+   24. [example-24.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-24.py) 在Urllib中使用XPath表达式
 
 ### dangdang 
     scrapy实现当当网商品爬虫实战
