@@ -101,6 +101,7 @@ class GoodSpider(scrapy.Spider):
             this_sku = all_sku[r]
             price_url = "https://p.3.cn/prices/mgets?callback=jQuery5975516&type=1&skuIds=J_" + str(this_sku)
             # print(price_url)
+            # 注: 访问频繁之后这里请求就会返回验证码了。。。
             price_data = urllib.request.urlopen(price_url).read().decode("utf-8", "ignore")
             price_pat = '"p":"(.*?)"'
             price = re.compile(price_pat).findall(price_data)[0]
