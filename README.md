@@ -7,7 +7,7 @@
 
 ### examples 
    
-    本目录中主要是python基础和urllib爬取数据的使用
+    本目录中主要是python基础和爬虫需要用到的常用扩展库的使用
    
    1. [example-1.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-1.py) python语法基础
    2. [example-2.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-2.py) python控制流与小实例
@@ -34,15 +34,16 @@
    23. [example-23.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-23.py) 如何同时使用用户代理池和IP代理池
    24. [example-24.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-24.py) 在Urllib中使用XPath表达式
    25. [example-25.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-25.py) BeautifulSoup基础实战
+   26. [example-26.py](https://github.com/gaoyaqiu/python-spider/blob/master/examples/example-26.py) PhantomJS基础实战
 
 ### dangdang 
     scrapy实现当当网商品爬虫实战
 ### baidunews     
      scrapy百度新闻爬虫实战
 ### douban     
-     豆瓣网登陆爬虫与验证码自动识别实战
+     scrapy豆瓣网登陆爬虫与验证码自动识别实战
 ### jdgoods   
-     Scrapy与Urllib的整合使用（爬取京东图书商品）
+     scrapy与urllib的整合使用（爬取京东图书商品）
 ### 未完待续!
     
     
